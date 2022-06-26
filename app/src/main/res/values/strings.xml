@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Campocater</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_connection">Your internet doesn\'t appear to be on, so we can\'t perform any requests.</string>
+    <string name="not_enough_results">We couldn\'t find enough items.</string>
+    <string name="link_issue">There appeared to be an issue with the link.</string>
+    <string name="loaded_all_items">Got all places, displaying them soon!</string>
+    <string name="selector">Select a Category</string>
+    <string name="mapSelector">Select a point on the map.</string>
+    <string name="deactivatedSelectMode">Deactivated select mode.</string>
+    <string name="activatedSelectMode">Activated Select Mode. Please tap a location on the map to get some results.</string>
+    <string name="couldNotLoadMap">Can\'t load the map at this time. :( Try again later.</string>
+    <string name="website_open">Click me to go to the website!</string>
+    <string name="failedToLoadImage">Could not load the image.</string>
+    <string name="failedToOpenWebsite">Couldn\'t open this business\'s website. :(</string>
+    <string name="noPlaceLoaded">No place is loaded.</string>
+    <string name="confirm_category">Confirm Category</string>
+    <string name="selectCategoryError">Please select a category.</string>
+    <string name="selectCategory">Select Category</string>
+    <string name="failedToStartWeatherReport">Could not compile the weather report. :(</string>
+    <string name="compileWeatherReport">Compiled a weather report. Scroll down the information display to see it.</string>
+    <string name="weather_report">Weather Report:</string>
+    <string name="recentEventTitle">Recent Event:</string>
+</resources>

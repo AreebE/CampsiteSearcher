@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236073585407",
+    "project_id": "campsite-23321",
+    "storage_bucket": "campsite-23321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236073585407:android:75540bed505bdddaabdaca",
+        "android_client_info": {
+          "package_name": "com.example.campsitesearcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236073585407-p4sf06hof7og8pnq3mcnnhi8p1krv6os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUeTj69DD64hGYrRuV_LzxPh7T_bN10Ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236073585407-p4sf06hof7og8pnq3mcnnhi8p1krv6os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

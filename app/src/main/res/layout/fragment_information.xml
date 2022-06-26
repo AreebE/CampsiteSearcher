@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="8dp"
+    tools:context=".InformationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ScrollView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@color/secondary_complement_color"
+                        android:scaleType="centerInside"
+                        />
+
+                    <TextView
+                        android:id="@+id/rating"
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="60dp"
+                        android:textColor="@color/secondary_complement_color"
+                        android:textSize="14dp"
+                        android:background="@color/secondary_variant"
+                        android:gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/secondary_variant"
+                            android:gravity="center"
+                            android:text="@string/hello_blank_fragment"
+                            android:textColor="@color/secondary_complement_color"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:padding="4dp"
+                            />
+
+
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:id="@+id/phone_number"
+                                android:layout_width="0dp"
+                                android:layout_height="60dp"
+                                android:background="@color/secondary_variant"
+                                android:padding="4dp"
+                                android:gravity="center"
+                                android:textColor="@color/secondary_complement_color"
+                                android:textSize="14dp"
+                                android:layout_margin="10dp"
+                                android:layout_weight="2" />
+
+                            <ImageButton android:id="@+id/call_number"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:padding="4dp"
+                                android:layout_gravity="center"
+                                android:src="@android:drawable/ic_menu_call"
+                                app:tint="@color/secondary_color"
+                                android:background="@color/secondary_variant"
+                                />
+
+                                   </LinearLayout>
+
+                        <Button
+                            android:id="@+id/open_website"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:theme="@style/activatedButtonSecondary"
+                            android:layout_height="wrap_content"
+                            android:text="@string/website_open"
+                            android:textAllCaps="false"
+                            android:textSize="16dp"
+                            />
+
+                        <TextView android:id="@+id/currentTemp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView android:id="@+id/min_temp"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"/>
+
+                            <TextView android:id="@+id/max_temp"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/secondary_complement_color"/>
+
+
+        <FrameLayout android:id="@+id/weatherReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <!--
+ private static final ArrayList<Place.Field> ITEMS = new ArrayList<Place.Field>()
+    {{
+        this.add(Place.Field.NAME);
+        this.add(Place.Field.ADDRESS);
+        this.add(Place.Field.PHONE_NUMBER);
+        this.add(Place.Field.WEBSITE_URI);
+        this.add(Place.Field.RATING);
+        this.add(Place.Field.LAT_LNG);
+    }};
+-->
+</ScrollView>

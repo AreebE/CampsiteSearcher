@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable/button.xml" value="0.226" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable/clicked_button.xml" value="0.1085" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable/default_button.xml" value="0.1085" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable/hover_button.xml" value="0.1085" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable/ic_launcher_background.xml" value="0.146" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable/info_background.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/drawable/user_background.xml" value="0.1215" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/layout/activity_user_display.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/layout/category_display.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/layout/fragment_category_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/layout/fragment_information.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/layout/fragment_weather.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/menu/map_controls.xml" value="0.4" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Areeb Emran/AndroidStudioProjects/CampsiteSearcher/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CampsiteSearcher" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_variant</item>
+        <item name="colorPrimaryVariant">@color/secondary_color</item>
+        <item name="colorOnPrimary">@color/primary_complement_color</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/primary_color</item>
+        <item name="colorOnSecondary">@color/secondary_complement_color</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonStyle" parent="ThemeOverlay.Material3.Button">
+        <item name="colorPrimary">@color/secondary_variant</item>
+        <item name="colorPrimaryVariant">@color/secondary_color</item>
+        <item name="colorOnPrimary">@color/secondary_complement_color</item>
+    </style>
+
+    <style name="activatedButtonPrimary">
+        <item name="colorPrimary">@color/primary_variant</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/primary_complement_color</item>
+    </style>
+
+    <style name="deactivatedButtonPrimary">
+        <item name="colorPrimary">@color/primary_complement_color</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/primary_color</item>
+    </style>
+
+    <style name="deactivatedButtonSecondary">
+        <item name="colorPrimary">@color/secondary_variant</item>
+        <item name="colorPrimaryVariant">@color/secondary_complement_color</item>
+        <item name="colorOnPrimary">@color/secondary_color</item>
+    </style>
+
+    <style name="activatedButtonSecondary">
+        <item name="colorPrimary">@color/secondary_complement_color</item>
+        <item name="colorPrimaryVariant">@color/secondary_variant</item>
+        <item name="colorOnPrimary">@color/secondary_color</item>
+    </style>
+</resources>

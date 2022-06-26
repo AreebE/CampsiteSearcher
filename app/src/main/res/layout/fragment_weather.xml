@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WeatherFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/secondary_color"
+        android:textColor="@color/secondary_complement_color"
+        android:padding="8dp"
+        android:text="@string/weather_report"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/weatherTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:background="@color/secondary_variant"
+                android:textColor="@color/secondary_complement_color"
+                android:padding="4dp"/>
+
+            <TextView android:id="@+id/weatherDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/secondary_complement_color"
+                android:padding="4dp"/>
+
+            <TextView android:id="@+id/cloudinessPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:background="@color/secondary_variant"
+                android:gravity="center"
+                android:textColor="@color/secondary_complement_color"
+                android:padding="4dp"/>
+
+            <TextView android:id="@+id/humidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/secondary_complement_color"
+                android:padding="4dp"/>
+
+            <TextView android:id="@+id/windSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:background="@color/secondary_variant"
+                android:gravity="center"
+                android:textColor="@color/secondary_complement_color"
+                android:padding="4dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="16dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/tempDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/secondary_complement_color"
+                android:padding="4dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:id="@+id/minTemp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:background="@color/secondary_variant"
+                    android:textColor="@color/secondary_complement_color"
+                    android:padding="4dp"/>
+
+                <TextView android:id="@+id/maxTemp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:background="@color/secondary_variant"
+                    android:textColor="@color/secondary_complement_color"
+                    android:padding="4dp"/>
+            </LinearLayout>
+
+            <TextView android:id="@+id/precipitationChance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/secondary_complement_color"
+                android:padding="4dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:id="@+id/uvIndex"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:background="@color/secondary_variant"
+                    android:gravity="center"
+                    android:textColor="@color/secondary_complement_color"
+                    android:padding="4dp"/>
+
+                <TextView android:id="@+id/dewPoint"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/secondary_variant"
+
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/secondary_complement_color"
+                    android:padding="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
