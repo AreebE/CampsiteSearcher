@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MAP_KEY">AIzaSyBynSFIp-xhKrPpcUHAEiRWy8lMSDj4_uk</string>
+    <string name="PLACES_KEY">AIzaSyBynSFIp-xhKrPpcUHAEiRWy8lMSDj4_uk</string>
+    <string name="WEATHER_KEY">2ca25a08823d692a38db351752c72b5d</string>
+</resources>
